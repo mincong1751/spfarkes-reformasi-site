@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SP FARKES Reformasi Batam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Roboto', sans-serif; margin: 0; background: #e8f5e9; }
+    header, footer { background: #1b5e20; color: white; padding: 1em; text-align: center; }
+    nav a { margin: 0 10px; color: white; text-decoration: none; font-weight: bold; }
+    .section { padding: 2em; background: white; margin-bottom: 1em; }
+    .hero { text-align: center; padding: 4em 2em; background: linear-gradient(to right, #43a047, #1b5e20); color: white; }
+    .visi-boxes { display: flex; flex-wrap: wrap; justify-content: center; gap: 1em; margin-top: 1em; }
+    .visi-box { background: #c8e6c9; padding: 1em; border-left: 5px solid #2e7d32; border-radius: 6px; width: 150px; text-align: center; }
+    .gallery img { max-width: 100%; height: auto; margin: 10px; border-radius: 8px; }
+    form { display: flex; flex-direction: column; gap: 1em; max-width: 400px; margin: auto; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { padding: 10px; background: #2e7d32; color: white; border: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SP FARKES Reformasi Batam</h1>
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#visi">Visi</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#pengumuman">Pengumuman</a>
+      <a href="#unduhan">Unduhan</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Wadah perjuangan untuk keadilan, kesejahteraan & perlindungan hak-hak buruh</h2>
+  </div>
+
+  <section class="section" id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>SP FARKES Reformasi adalah wadah perjuangan pekerja untuk keadilan, kesejahteraan, dan perlindungan hak-hak buruh di lingkungan PT. CIBA VISION Batam.</p>
+  </section>
+
+  <section class="section" id="visi">
+    <h2>Visi - TERANG</h2>
+    <div class="visi-boxes">
+      <div class="visi-box"><strong>T</strong> – Tegas</div>
+      <div class="visi-box"><strong>E</strong> – Edukatif</div>
+      <div class="visi-box"><strong>R</strong> – Responsif</div>
+      <div class="visi-box"><strong>A</strong> – Aktif</div>
+      <div class="visi-box"><strong>N</strong> – Ber-Nilai</div>
+      <div class="visi-box"><strong>G</strong> – Gerak</div>
+    </div>
+  </section>
+
+  <section class="section" id="galeri">
+    <h2>Galeri Kegiatan</h2>
+    <div class="gallery">
+      <p>Belum ada foto kegiatan. Silakan upload nanti melalui dashboard Netlify atau kirim ke pengelola.</p>
+    </div>
+  </section>
+
+  <section class="section" id="pengumuman">
+    <h2>Pengumuman Terbaru</h2>
+    <ul>
+      <li>📢 Gathering 2025 direncanakan bulan September.</li>
+      <li>📢 Terima kasih atas partisipasi MUSNIK VIII.</li>
+    </ul>
+  </section>
+
+  <section class="section" id="unduhan">
+    <h2>Unduhan Dokumen</h2>
+    <ul>
+      <li><a href="#">📄 SK Pengurus (akan ditambahkan)</a></li>
+      <li><a href="#">📄 Formulir Keanggotaan (akan ditambahkan)</a></li>
+    </ul>
+  </section>
+
+  <section class="section" id="kontak">
+    <h2>Hubungi Kami</h2>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="text" name="nama" placeholder="Nama Anda" required />
+      <input type="email" name="email" placeholder="Email Anda" required />
+      <textarea name="pesan" rows="4" placeholder="Pesan Anda..." required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SP FARKES Reformasi Batam. All rights reserved.</p>
+  </footer>
+</body>
+</html>
